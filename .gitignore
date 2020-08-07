@@ -141,4 +141,4 @@ cython_debug/
 log/
 weights/
 
-dataset/
+dataset
