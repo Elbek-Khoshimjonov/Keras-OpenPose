@@ -42,7 +42,7 @@ parser.add_argument("--stepsize", type=int, default=120052*17) # 120052 and step
 
 parser.add_argument("--max_iter", type=int, default=200)
 
-parser.add_argument("--use_multiple_gpus", type=int, default=None, help="Use multiple gpus 1, None for 1 gpu")
+parser.add_argument("--use_multiple_gpus", type=int, default=4, help="Use multiple gpus 1, None for 1 gpu")
 
 parser.add_argument("--training_log", type=str, default="weights/v1/training.csv", help="Training log csv file")
 
